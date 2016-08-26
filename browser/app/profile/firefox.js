@@ -77,7 +77,7 @@ pref("extensions.systemAddon.update.url", "");
 pref("extensions.autoDisableScopes", 15);
 
 // Require signed add-ons by default
-pref("xpinstall.signatures.required", true);
+pref("xpinstall.signatures.required", false); #FIX ME
 pref("xpinstall.signatures.devInfoURL", "https://wiki.mozilla.org/Addons/Extension_Signing");
 
 // Dictionary download preference
